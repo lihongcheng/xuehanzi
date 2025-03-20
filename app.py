@@ -37,8 +37,8 @@ def init_db():
 
 # 百度API设置
 # 这里应该从环境变量或配置文件中读取
-BAIDU_API_KEY = 'H7yDoUtICfUDcJaH9tMTC1TH'
-BAIDU_SECRET_KEY = 'nCUmRKn4OKAWWEFC5PWgtjXHqjK6yQEM'
+BAIDU_API_KEY = 'XXX'
+BAIDU_SECRET_KEY = 'XXX'
 
 def get_baidu_token():
     """获取百度API访问令牌"""
