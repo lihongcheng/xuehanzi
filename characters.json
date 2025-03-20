@@ -1,0 +1,613 @@
+{
+    "characters": [
+        {
+            "character": "一",
+            "pinyin": "yī",
+            "strokes": 1,
+            "radical": "一",
+            "level": 1
+        },
+        {
+            "character": "二",
+            "pinyin": "èr",
+            "strokes": 2,
+            "radical": "二",
+            "level": 1
+        },
+        {
+            "character": "三",
+            "pinyin": "sān",
+            "strokes": 3,
+            "radical": "一",
+            "level": 1
+        },
+        {
+            "character": "人",
+            "pinyin": "rén",
+            "strokes": 2,
+            "radical": "人",
+            "level": 1
+        },
+        {
+            "character": "口",
+            "pinyin": "kǒu",
+            "strokes": 3,
+            "radical": "口",
+            "level": 1
+        },
+        {
+            "character": "日",
+            "pinyin": "rì",
+            "strokes": 4,
+            "radical": "日",
+            "level": 1
+        },
+        {
+            "character": "月",
+            "pinyin": "yuè",
+            "strokes": 4,
+            "radical": "月",
+            "level": 1
+        },
+        {
+            "character": "山",
+            "pinyin": "shān",
+            "strokes": 3,
+            "radical": "山",
+            "level": 1
+        },
+        {
+            "character": "水",
+            "pinyin": "shuǐ",
+            "strokes": 4,
+            "radical": "水",
+            "level": 1
+        },
+        {
+            "character": "火",
+            "pinyin": "huǒ",
+            "strokes": 4,
+            "radical": "火",
+            "level": 1
+        },
+        {
+            "character": "木",
+            "pinyin": "mù",
+            "strokes": 4,
+            "radical": "木",
+            "level": 1
+        },
+        {
+            "character": "土",
+            "pinyin": "tǔ",
+            "strokes": 3,
+            "radical": "土",
+            "level": 1
+        },
+        {
+            "character": "大",
+            "pinyin": "dà",
+            "strokes": 3,
+            "radical": "大",
+            "level": 1
+        },
+        {
+            "character": "小",
+            "pinyin": "xiǎo",
+            "strokes": 3,
+            "radical": "小",
+            "level": 1
+        },
+        {
+            "character": "中",
+            "pinyin": "zhōng",
+            "strokes": 4,
+            "radical": "丨",
+            "level": 1
+        },
+        {
+            "character": "上",
+            "pinyin": "shàng",
+            "strokes": 3,
+            "radical": "一",
+            "level": 1
+        },
+        {
+            "character": "下",
+            "pinyin": "xià",
+            "strokes": 3,
+            "radical": "一",
+            "level": 1
+        },
+        {
+            "character": "子",
+            "pinyin": "zǐ",
+            "strokes": 3,
+            "radical": "子",
+            "level": 1
+        },
+        {
+            "character": "女",
+            "pinyin": "nǚ",
+            "strokes": 3,
+            "radical": "女",
+            "level": 1
+        },
+        {
+            "character": "手",
+            "pinyin": "shǒu",
+            "strokes": 4,
+            "radical": "手",
+            "level": 1
+        },
+        {
+            "character": "足",
+            "pinyin": "zú",
+            "strokes": 7,
+            "radical": "足",
+            "level": 1
+        },
+        {
+            "character": "目",
+            "pinyin": "mù",
+            "strokes": 5,
+            "radical": "目",
+            "level": 1
+        },
+        {
+            "character": "耳",
+            "pinyin": "ěr",
+            "strokes": 6,
+            "radical": "耳",
+            "level": 1
+        },
+        {
+            "character": "口",
+            "pinyin": "kǒu",
+            "strokes": 3,
+            "radical": "口",
+            "level": 1
+        },
+        {
+            "character": "门",
+            "pinyin": "mén",
+            "strokes": 3,
+            "radical": "门",
+            "level": 1
+        },
+        {
+            "character": "心",
+            "pinyin": "xīn",
+            "strokes": 4,
+            "radical": "心",
+            "level": 1
+        },
+        {
+            "character": "田",
+            "pinyin": "tián",
+            "strokes": 5,
+            "radical": "田",
+            "level": 1
+        },
+        {
+            "character": "禾",
+            "pinyin": "hé",
+            "strokes": 5,
+            "radical": "禾",
+            "level": 1
+        },
+        {
+            "character": "白",
+            "pinyin": "bái",
+            "strokes": 5,
+            "radical": "白",
+            "level": 1
+        },
+        {
+            "character": "云",
+            "pinyin": "yún",
+            "strokes": 4,
+            "radical": "二",
+            "level": 1
+        },
+        {
+            "character": "四",
+            "pinyin": "sì",
+            "strokes": 5,
+            "radical": "囗",
+            "level": 1
+        },
+        {
+            "character": "五",
+            "pinyin": "wǔ",
+            "strokes": 4,
+            "radical": "二",
+            "level": 1
+        },
+        {
+            "character": "六",
+            "pinyin": "liù",
+            "strokes": 4,
+            "radical": "八",
+            "level": 1
+        },
+        {
+            "character": "七",
+            "pinyin": "qī",
+            "strokes": 2,
+            "radical": "一",
+            "level": 1
+        },
+        {
+            "character": "八",
+            "pinyin": "bā",
+            "strokes": 2,
+            "radical": "八",
+            "level": 1
+        },
+        {
+            "character": "九",
+            "pinyin": "jiǔ",
+            "strokes": 2,
+            "radical": "乙",
+            "level": 1
+        },
+        {
+            "character": "十",
+            "pinyin": "shí",
+            "strokes": 2,
+            "radical": "十",
+            "level": 1
+        },
+        {
+            "character": "百",
+            "pinyin": "bǎi",
+            "strokes": 6,
+            "radical": "白",
+            "level": 1
+        },
+        {
+            "character": "千",
+            "pinyin": "qiān",
+            "strokes": 3,
+            "radical": "十",
+            "level": 1
+        },
+        {
+            "character": "万",
+            "pinyin": "wàn",
+            "strokes": 3,
+            "radical": "一",
+            "level": 1
+        },
+        {
+            "character": "爱",
+            "pinyin": "ài",
+            "strokes": 10,
+            "radical": "爪",
+            "level": 2
+        },
+        {
+            "character": "我",
+            "pinyin": "wǒ",
+            "strokes": 7,
+            "radical": "戈",
+            "level": 1
+        },
+        {
+            "character": "你",
+            "pinyin": "nǐ",
+            "strokes": 7,
+            "radical": "亻",
+            "level": 1
+        },
+        {
+            "character": "他",
+            "pinyin": "tā",
+            "strokes": 5,
+            "radical": "亻",
+            "level": 1
+        },
+        {
+            "character": "她",
+            "pinyin": "tā",
+            "strokes": 6,
+            "radical": "女",
+            "level": 1
+        },
+        {
+            "character": "好",
+            "pinyin": "hǎo",
+            "strokes": 6,
+            "radical": "女",
+            "level": 1
+        },
+        {
+            "character": "妈",
+            "pinyin": "mā",
+            "strokes": 6,
+            "radical": "女",
+            "level": 1
+        },
+        {
+            "character": "爸",
+            "pinyin": "bà",
+            "strokes": 8,
+            "radical": "父",
+            "level": 1
+        },
+        {
+            "character": "家",
+            "pinyin": "jiā",
+            "strokes": 10,
+            "radical": "宀",
+            "level": 1
+        },
+        {
+            "character": "猫",
+            "pinyin": "māo",
+            "strokes": 11,
+            "radical": "犭",
+            "level": 2
+        },
+        {
+            "character": "狗",
+            "pinyin": "gǒu",
+            "strokes": 8,
+            "radical": "犭",
+            "level": 2
+        },
+        {
+            "character": "鱼",
+            "pinyin": "yú",
+            "strokes": 8,
+            "radical": "鱼",
+            "level": 2
+        },
+        {
+            "character": "鸟",
+            "pinyin": "niǎo",
+            "strokes": 5,
+            "radical": "鸟",
+            "level": 2
+        },
+        {
+            "character": "天",
+            "pinyin": "tiān",
+            "strokes": 4,
+            "radical": "大",
+            "level": 1
+        },
+        {
+            "character": "地",
+            "pinyin": "dì",
+            "strokes": 6,
+            "radical": "土",
+            "level": 1
+        },
+        {
+            "character": "人",
+            "pinyin": "rén",
+            "strokes": 2,
+            "radical": "人",
+            "level": 1
+        },
+        {
+            "character": "和",
+            "pinyin": "hé",
+            "strokes": 8,
+            "radical": "口",
+            "level": 1
+        },
+        {
+            "character": "东",
+            "pinyin": "dōng",
+            "strokes": 5,
+            "radical": "木",
+            "level": 1
+        },
+        {
+            "character": "西",
+            "pinyin": "xī",
+            "strokes": 6,
+            "radical": "西",
+            "level": 1
+        },
+        {
+            "character": "南",
+            "pinyin": "nán",
+            "strokes": 9,
+            "radical": "十",
+            "level": 1
+        },
+        {
+            "character": "北",
+            "pinyin": "běi",
+            "strokes": 5,
+            "radical": "匕",
+            "level": 1
+        },
+        {
+            "character": "左",
+            "pinyin": "zuǒ",
+            "strokes": 5,
+            "radical": "工",
+            "level": 1
+        },
+        {
+            "character": "右",
+            "pinyin": "yòu",
+            "strokes": 5,
+            "radical": "口",
+            "level": 1
+        },
+        {
+            "character": "早",
+            "pinyin": "zǎo",
+            "strokes": 6,
+            "radical": "日",
+            "level": 1
+        },
+        {
+            "character": "晚",
+            "pinyin": "wǎn",
+            "strokes": 11,
+            "radical": "日",
+            "level": 2
+        },
+        {
+            "character": "多",
+            "pinyin": "duō",
+            "strokes": 6,
+            "radical": "夕",
+            "level": 1
+        },
+        {
+            "character": "少",
+            "pinyin": "shǎo",
+            "strokes": 4,
+            "radical": "小",
+            "level": 1
+        },
+        {
+            "character": "红",
+            "pinyin": "hóng",
+            "strokes": 6,
+            "radical": "纟",
+            "level": 2
+        },
+        {
+            "character": "绿",
+            "pinyin": "lǜ",
+            "strokes": 11,
+            "radical": "纟",
+            "level": 2
+        },
+        {
+            "character": "蓝",
+            "pinyin": "lán",
+            "strokes": 14,
+            "radical": "艹",
+            "level": 2
+        },
+        {
+            "character": "黄",
+            "pinyin": "huáng",
+            "strokes": 11,
+            "radical": "黄",
+            "level": 2
+        },
+        {
+            "character": "黑",
+            "pinyin": "hēi",
+            "strokes": 12,
+            "radical": "黑",
+            "level": 2
+        },
+        {
+            "character": "白",
+            "pinyin": "bái",
+            "strokes": 5,
+            "radical": "白",
+            "level": 1
+        },
+        {
+            "character": "花",
+            "pinyin": "huā",
+            "strokes": 7,
+            "radical": "艹",
+            "level": 2
+        },
+        {
+            "character": "草",
+            "pinyin": "cǎo",
+            "strokes": 9,
+            "radical": "艹",
+            "level": 2
+        },
+        {
+            "character": "树",
+            "pinyin": "shù",
+            "strokes": 9,
+            "radical": "木",
+            "level": 2
+        },
+        {
+            "character": "果",
+            "pinyin": "guǒ",
+            "strokes": 8,
+            "radical": "木",
+            "level": 2
+        },
+        {
+            "character": "菜",
+            "pinyin": "cài",
+            "strokes": 11,
+            "radical": "艹",
+            "level": 2
+        },
+        {
+            "character": "米",
+            "pinyin": "mǐ",
+            "strokes": 6,
+            "radical": "米",
+            "level": 1
+        },
+        {
+            "character": "饭",
+            "pinyin": "fàn",
+            "strokes": 7,
+            "radical": "饣",
+            "level": 2
+        },
+        {
+            "character": "水",
+            "pinyin": "shuǐ",
+            "strokes": 4,
+            "radical": "水",
+            "level": 1
+        },
+        {
+            "character": "冰",
+            "pinyin": "bīng",
+            "strokes": 6,
+            "radical": "冫",
+            "level": 2
+        },
+        {
+            "character": "雨",
+            "pinyin": "yǔ",
+            "strokes": 8,
+            "radical": "雨",
+            "level": 1
+        },
+        {
+            "character": "雪",
+            "pinyin": "xuě",
+            "strokes": 11,
+            "radical": "雨",
+            "level": 2
+        },
+        {
+            "character": "风",
+            "pinyin": "fēng",
+            "strokes": 4,
+            "radical": "风",
+            "level": 2
+        },
+        {
+            "character": "星",
+            "pinyin": "xīng",
+            "strokes": 9,
+            "radical": "日",
+            "level": 2
+        },
+        {
+            "character": "空",
+            "pinyin": "kōng",
+            "strokes": 8,
+            "radical": "穴",
+            "level": 2
+        }
+    ]
+} 

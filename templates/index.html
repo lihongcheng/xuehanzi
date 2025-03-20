@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>儿童学汉字</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style>
+        #errorMessage {
+            background-color: #ffdddd;
+            color: #ff0000;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            display: none;
+        }
+        
+        #loadingIndicator {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+        
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div id="loadingIndicator">
+        <div class="spinner"></div>
+    </div>
+    
+    <div class="container">
+        <header>
+            <h1>儿童学汉字</h1>
+            <div id="errorMessage"></div>
+            <div class="nav-buttons">
+                <button id="learnBtn" class="active">学习</button>
+                <button id="reviewBtn">复习</button>
+            </div>
+        </header>
+
+        <main>
+            <div id="characterDisplay" class="character-display">
+                <div class="character">一</div>
+                <div class="pinyin">yī</div>
+                <div class="controls">
+                    <button id="speakBtn">朗读</button>
+                    <button id="nextBtn">下一个</button>
+                </div>
+            </div>
+
+            <div id="writingArea" class="writing-area">
+                <div class="writing-title">请在田字格中书写</div>
+                <canvas id="writingCanvas"></canvas>
+                <div class="writing-controls">
+                    <button id="clearBtn">清除</button>
+                    <button id="checkBtn">检查</button>
+                </div>
+            </div>
+
+            <div id="progressBar" class="progress-bar">
+                <div class="progress"></div>
+            </div>
+        </main>
+
+        <!-- 调试按钮区域 -->
+        <div id="debugTools" style="margin-top: 20px; text-align: center; padding: 10px; background: #f8f9fa; border-radius: 5px; display: none;">
+            <button id="reloadAppBtn" style="background: #ffc107; color: #333;">重新加载应用</button>
+            <button id="debugAppBtn" style="background: #17a2b8; color: white;">调试应用</button>
+        </div>
+    </div>
+
+    <!-- 添加儿童友好的提示弹窗 -->
+    <div class="popup-overlay"></div>
+    <div class="result-popup">
+        <div class="icon">🎉</div>
+        <div class="message"></div>
+        <div class="sub-message"></div>
+        <button class="button">继续</button>
+    </div>
+
+    <script>
+        // 基本错误处理
+        window.onerror = function(message, source, lineno, colno, error) {
+            showError('发生错误: ' + message);
+            console.error(error);
+            return true;
+        };
+        
+        // 显示错误信息
+        function showError(message) {
+            const errorEl = document.getElementById('errorMessage');
+            errorEl.textContent = message;
+            errorEl.style.display = 'block';
+            
+            // 显示调试工具
+            document.getElementById('debugTools').style.display = 'block';
+            
+            // 3秒后隐藏错误信息
+            setTimeout(() => {
+                errorEl.style.display = 'none';
+            }, 3000);
+        }
+        
+        // 隐藏加载指示器
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(function() {
+                const loadingIndicator = document.getElementById('loadingIndicator');
+                if (loadingIndicator) {
+                    loadingIndicator.style.display = 'none';
+                }
+            }, 1000);
+            
+            // 添加调试按钮事件
+            document.getElementById('reloadAppBtn').addEventListener('click', function() {
+                if (typeof reloadApp === 'function') {
+                    reloadApp();
+                }
+            });
+            
+            document.getElementById('debugAppBtn').addEventListener('click', function() {
+                if (typeof window.debugApp === 'function') {
+                    window.debugApp();
+                }
+            });
+            
+            // 开发模式下显示调试工具
+            if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+                document.getElementById('debugTools').style.display = 'block';
+            }
+        });
+    </script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html> 

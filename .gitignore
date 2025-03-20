@@ -1,0 +1,60 @@
+# Python缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Flask相关
+instance/
+.webassets-cache
+
+# 虚拟环境
+venv/
+ENV/
+env/
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+data/
+
+# 缓存文件夹
+audio_cache/
+**/*.mp3
+
+# 本地配置文件
+config.py
+.env
+
+# 运行时生成的文件
+.coverage
+htmlcov/
+.pytest_cache/
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+
+# IDE相关
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store 
